@@ -18,5 +18,5 @@ docker run --rm $DOCKER_ARGS_ADD \
        -r asciidoctor-diagram \
        -a 'revealjsdir=https://cdn.jsdelivr.net/npm/reveal.js@3.9.2' \
        -D /build \
-       slides.adoc
+       index.adoc
 
