@@ -1,3 +1,8 @@
+A few slides for a short talk about quarkus and why I think it is a good alternative to the widely used Spring Boot.
 
+I'm using this project also to learn how to create slides from asciidoc using an automated GitHub build.
 
-* https://joemat.github.io/quarkus-as-alternative-to-spring-slides/[Generated slides]
+The https://joemat.github.io/quarkus-as-alternative-to-spring-slides/[generated slides are hosted on GitHub pages].
+
+The script link:render.sh[render.sh] runs the
+https://hub.docker.com/r/asciidoctor/docker-asciidoctor[asciidoctor docker container] to generate the slides.
