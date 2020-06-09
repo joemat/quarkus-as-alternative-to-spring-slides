@@ -1,0 +1,3 @@
+
+
+* https://joemat.github.io/quarkus-as-alternative-to-spring-slides/[Generated slides]
