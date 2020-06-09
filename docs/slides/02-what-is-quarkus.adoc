@@ -1,0 +1,8 @@
+== What is Quarkus?
+
+[.cover]
+image::quarkus-github-and-io.png[width="100%", align="center"]
+
+* fast startup time
+* small memory footprint
+

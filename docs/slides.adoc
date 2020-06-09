@@ -1,0 +1,23 @@
+= *Quarkus* as an alternative to *Spring Boot*
+Jörg Matysiak
+v1.0.0, 2020-06-03
+include::./_metadata.adoc[]
+include::./_settings.adoc[]
+
+include::slides/01-initial-situation.adoc[]
+
+include::slides/02-what-is-quarkus.adoc[]
+
+include::slides/03-quarkus-concepts.adoc[]
+
+include::slides/04-a-few-numbers.adoc[]
+
+include::slides/05-quarkus-di.adoc[]
+
+include::slides/06-quarkus-cfg.adoc[]
+
+include::slides/07-quarkus-orm.adoc[]
+
+include::slides/08-links.adoc[]
+
+include::slides/ZZ_photo-references.adoc[]

@@ -1,0 +1,25 @@
+== Beans and DI
+
+image::StockSnap_VDKZHTBQK0.jpg[background]
+
+.Spring
+[source,java]
+----
+@Component
+public class TestResultService {
+
+   @Autowired
+   private TestResultRepo testResultRepo;
+----
+
+.Quarkus
+[source,java]
+----
+@ApplicationScoped // mark as bean incl. scope definition
+public class TestResultService {
+
+    @Inject
+    TestResultRepo testResultRepo;
+----
+
+NOTE: I prefer constructor injection

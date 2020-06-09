@@ -1,0 +1,12 @@
+== Numbers ...
+
+image::StockSnap_APW0W8GBMM.jpg[background]
+
+[.table,options="header"]
+|===
+||Spring Boot|Quarkus (JVM)
+|File size footnote:[Comparing wirvsvirus-backend and wirvsvirus-backend-quarkus]| 31.898.389 byte | 38.908.086 byte
+|Heap size/used |611/~60 MB | 70/~40 MB
+|Classes loaded| 9.729|5.798
+|Startup footnote:[Values taken from https://jaxenter.com/micronaut-speed-test-170870.html] | 1.24s| 655ms
+|===

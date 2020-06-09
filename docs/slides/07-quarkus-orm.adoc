@@ -1,0 +1,19 @@
+== ORM
+image::StockSnap_5IWPD5X5XJ.jpg[background]
+
+.Testresult.java
+[source,java]
+----
+@Data
+public class TestResult extends PanacheMongoEntity {
+    String id;
+    Result status;
+    String contact;
+
+    public static TestResult findByHash(String id) {
+        return findById(id);
+    }
+----
+
+* Similar to Spring Data but not as mighty
+** No method-name-to-implementation magic

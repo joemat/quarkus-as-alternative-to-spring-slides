@@ -1,0 +1,25 @@
+== Configuration
+
+image::StockSnap_YVTZVJ1BRI.jpg[background]
+
+[source,java]
+----
+@Data
+@ConfigProperties(prefix = "message")
+public class MessageConfiguration {
+
+    private String from;
+    private String text;
+}
+----
+
+.application.properties
+[source,properties]
+----
+message.from=Krankenhaus
+message.text=Wir freuen uns Ihnen mitteilen zu können, dass ...
+
+# Use other message.from when running in test profile
+%test.message.from=Testklinik <1>
+----
+<1> Profile specific settings in same file, prefixed

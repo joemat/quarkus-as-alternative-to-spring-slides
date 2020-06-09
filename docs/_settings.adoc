@@ -1,0 +1,11 @@
+:revealjs_transition: fade
+:revealjs_controls: false
+:revealjs_progress: false
+:revealjs_history: true
+:revealjs_slidenumber: false
+:title-slide-background-image: StockSnap_EF3DMISQPR.jpg
+:icons: font
+:imagesdir: images
+:idprefix:
+:idseparator: -
+:source-highlighter: highlightjs
