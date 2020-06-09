@@ -15,4 +15,4 @@ jobs:
       uses: maxheld83/ghpages@v0.2.1
       env:
         BUILD_DIR: ./build
-        GH_PAT: ${{ secrets.GH_PAGES_KEY }}
+        GH_PAT: ${{ secrets.GH_PAT }}

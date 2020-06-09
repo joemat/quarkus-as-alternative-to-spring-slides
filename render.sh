@@ -2,7 +2,14 @@ rm -rf build && mkdir build
 
 cp -r docs/images build
 
-docker run -it --rm \
+DOCKER_ARGS_ADD=""
+if [ -t 1 ]
+then
+  echo "Running in terminal - adding -ti to docker parameters"
+   DOCKER_ARGS_ADD="-ti"
+fi
+
+docker run --rm $DOCKER_ARGS_ADD \
        -u $(id -u ${USER}):$(id -g ${USER}) \
        -v $(pwd)/build:/build \
        -v $(pwd)/docs:/documents/ \
