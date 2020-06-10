@@ -8,3 +8,4 @@ image::StockSnap_QZTMMLUZOP.jpg[background]
 ** B1 costs ~ 11 EUR/month
 ** there is a free plan providing 1 GB memory
 *** this is too weak for spring boot
+

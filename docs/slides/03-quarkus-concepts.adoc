@@ -1,10 +1,10 @@
 == Quarkus basic concepts
 
-* https://code.quarkus.io/[Extensions]
 * https://quarkus.io/vision/container-first[Container first]
 ** https://developers.redhat.com/blog/2020/06/05/mandrel-a-community-distribution-of-graalvm-for-the-red-hat-build-of-quarkus/[Supports GraalVM for native images]
 * https://quarkus.io/vision/continuum[Imperative and Reactive approaches]
-* https://quarkus.io/vision/developer-joy["Live Coding" in dev mode]
-* Based on well-known libraries and frameworks
+* https://quarkus.io/vision/standards[Based on standards]
+* https://code.quarkus.io/[Extensions]
+* https://quarkus.io/vision/developer-joy[Developer Joy]
 
 Start here: https://code.quarkus.io/

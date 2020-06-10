@@ -1,0 +1,7 @@
+== Conclusion
+
+* Quarkus looks like a promising alternative when using Kubernetes.
+* It requires less resources than Spring
+* but also has fewer, less powerful features
+
+image:StockSnap_M5SBYPJ33Q.jpg[200,200,align=center]

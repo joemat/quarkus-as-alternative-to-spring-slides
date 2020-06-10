@@ -1,8 +1,13 @@
+:revealjs_theme: league
 :revealjs_transition: fade
-:revealjs_controls: false
+:revealjs_controls: true
 :revealjs_progress: false
 :revealjs_history: true
 :revealjs_slidenumber: false
+:revealjs_overview: true
+:revealjs_keyboard: true
+:revealjs_mouseWheel: true
+:revealjs_controlsTutorial: true
 :title-slide-background-image: StockSnap_EF3DMISQPR.jpg
 :icons: font
 :imagesdir: images

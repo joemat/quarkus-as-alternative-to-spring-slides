@@ -1,13 +1,14 @@
-[link=https://opensource.org/licenses/MIT]
+[%autowidth,cols="a,a,a",grid=none,frame=none]
+|===
+|[link=https://opensource.org/licenses/MIT]
 image::https://img.shields.io/badge/License-MIT-yellow.svg[MIT license]
-
-[link=https://creativecommons.org/licenses/by-sa/4.0/]
+|[link=https://creativecommons.org/licenses/by-sa/4.0/]
 image::https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg[Content License: CC BY-SA 4.0]
-
-[link=https://github.com/joemat/quarkus-as-alternative-to-spring-slides/actions]
+|[link=https://github.com/joemat/quarkus-as-alternative-to-spring-slides/actions]
 image::https://github.com/joemat/quarkus-as-alternative-to-spring-slides/workflows/CI/badge.svg[Build status]
+|===
 
-
+== Quarkus as an alternative to Spring Boot
 
 A few slides for a short talk about quarkus and why I think it is a good alternative to the widely used Spring Boot.
 

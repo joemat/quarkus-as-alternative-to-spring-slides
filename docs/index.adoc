@@ -18,6 +18,10 @@ include::slides/06-quarkus-cfg.adoc[]
 
 include::slides/07-quarkus-orm.adoc[]
 
-include::slides/08-links.adoc[]
+include::slides/09-summary.adoc[]
+
+include::slides/89-questions.adoc[]
+
+include::slides/99-links.adoc[]
 
 include::slides/ZZ_photo-references.adoc[]

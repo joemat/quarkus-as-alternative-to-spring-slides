@@ -10,10 +10,10 @@ public class TestResult extends PanacheMongoEntity {
     Result status;
     String contact;
 
-    public static TestResult findByHash(String id) {
-        return findById(id);
+    public static List<TestResult> findByStatus(Result status) {
+        return list("status", status);
     }
 ----
 
-* Similar to Spring Data but not as mighty
+* Similar to Spring Data but not as powerful
 ** No method-name-to-implementation magic

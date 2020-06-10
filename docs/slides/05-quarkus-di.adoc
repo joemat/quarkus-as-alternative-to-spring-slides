@@ -19,7 +19,7 @@ public class TestResultService {
 public class TestResultService {
 
     @Inject
-    TestResultRepo testResultRepo;
+    TestResultPushService testResultPushService;
 ----
 
 NOTE: I prefer constructor injection
